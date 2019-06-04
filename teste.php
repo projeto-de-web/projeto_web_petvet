@@ -1,3 +1,3 @@
-<?php @mail("celostad@bol.com.br","titulo de teste","corpo do teste","From: marcelo@maypet.com.br");
+<?php @mail("web@web.com.br","titulo de teste","corpo do teste","From: pet_peto@maypet.com.br");
 ?> 
 
