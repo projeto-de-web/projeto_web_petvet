@@ -9,7 +9,7 @@ $usuario = $_SESSION["sessao_login"];
 $nivel = $_SESSION["sessao_nivel"];
 $checa_retorno = $_SESSION["checa_retorno"];
 
-if ($nivel ==1){$nivel_conv="Usuário";}
+if ($nivel ==1){$nivel_conv="Usuï¿½rio";}
 if ($nivel ==2){$nivel_conv="Gerente";}
 if ($nivel ==3){$nivel_conv="Administrador";}
 
@@ -18,7 +18,7 @@ echo "phpself: ".$phpself;
 echo "<br>link: ".$link;
 */
 
-// APAGA OS DADOS DAS VARIÁVEIS
+// APAGA OS DADOS DAS VARIï¿½VEIS
 
 $_SESSION["rad_sel_visl"] ="";
 $_SESSION["rad_animal_clie"] ="";
@@ -29,7 +29,7 @@ $_SESSION["retorno"] ="";
 ?>
 <html>
 <head>
-<title>PetLivre - Sistema para Gerenciamento de Petshop  </title>
+<title>PetVet - Sistema para Gerenciamento de Petshop  </title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <link rel="stylesheet" href="<?=$pontos;?>css/config.css" type="text/css">
 </head>
