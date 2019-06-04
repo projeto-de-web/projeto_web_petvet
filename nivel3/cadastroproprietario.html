@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset = "utf-8"/>
+      <link rel="stylesheet" href="cadastroproprietario.css">    
+    </head>
+    <body>
+    
+    <h2>Cadastro Proprietário/Animais</h2>
+      
+    <button type="button" onclick="Alterar">Novo</button>
+      <button type="button" onclick="Alterar">Salvar</button>
+    <br><br>
+      <table>
+      <tr>
+        <th>Código</th>
+        <th>
+        <form>
+      <input type="text" name="firstname">
+        </th>
+        <br>
+        </form>
+        <th>Nome</th>
+        <td>
+        <form>
+      <input type="text" name="firstname">
+      <br>
+        </form>
+        </td>
+      </tr>
+      <tr>
+        <td>CPF/CNPJ (Apenas Nº):</td>
+        <td>
+        <form>
+      <input type="text" name="firstname">
+      <br>
+        </form>
+        </td>
+        <td>E-mail:</td>
+        <td>
+         <form>
+      <input type="text" name="firstname">
+      <br>
+        </td>
+      </tr>
+      <tr>
+        <td>Telefone:</td>
+        <td>
+          <form>
+      <input type="text" name="firstname">
+      <br>
+        </td>
+        <td>Celular:</td>
+        <td>
+          <form>
+      <input type="text" name="firstname">
+      <br>
+        </td>
+      </tr>
+     
+        
+    </table>
+      <br>
+    
+    </body>
+      
+    <div class="tabs-container">
+    
+            <input type="radio" name="tabs" class="tabs" id="tab1" checked>
+            <label for="tab1">Animais</label>
+            <div class="Animais">
+            <br>
+            <button type="button" onclick="Alterar">Novo Animal</button>
+             <br>  
+              <br>
+    </div>
+
+    <div>
+      <button id="btn_adicionar" onclick="adicionaLinha('tbl')">Adicionar</button>
+      <button id="btn_adicionar" onclick="adicionaLinha('tbl')">Salvar</button>
+    </div>
+      <table id="NovoAnimal">
+      <tr>
+        <th>Cód.Animal</th>
+        <th>Nome</th>
+        <th>Cód.Legado</th>
+        <th>Nascimento</th>
+        <th>Sexo</th>
+        <th>Espécie</th>
+        <th>Raça</th>
+        <th>Desc.Raça</th>
+        <th>Peso</th>
+        <th>Óbito</th>
+        <th>Editar</th>
+        <th>Excluir</th>
+      </tr>     
+        
+    </table>
+      <br>       
+              
+      </div>            
+            
+            <input type="radio" name="tabs" class="tabs" id="tab2">
+            <label for="tab2">Endereço</label>
+            <div>
+              
+      </div>
+    <br> 
+</body>
+</html>

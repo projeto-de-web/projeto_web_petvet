@@ -1,0 +1,109 @@
+body{
+
+  background-image: url("4k-shih-tzu-sleeping-dog-pets-dogs.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1920px 1700px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+    
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+    
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+
+.tabs-container {
+  position: relative;
+}
+
+/*------------------ menu ----------------------*/
+.hidden {
+  display: none;
+}
+.imput{
+  display: block;
+}
+
+.cabeçalho{
+  font-family: "Sweet", cursive, sans-serif;
+  color: aliceblue;
+  font-size: 110%;
+  
+}
+/*----------------------------------------------------*/
+
+.tabs-container:after {
+  content: '.';
+  display: block;
+  clear: both;
+}
+input.tabs {
+  display: none;
+}
+input.tabs + label {
+  line-height: 40px;
+  padding: 0 20px;
+  float: left;
+
+  transition: background ease-in-out .3s;
+}
+input.tabs:checked + label {
+  color: #000;
+  background: #eee;
+}
+input.tabs + label + div {
+  width: 98%;
+  position: absolute;
+  background: #eee;
+  top: 40px;
+  height: 300px;
+  transition: opacity ease-in-out .3s;
+}
+input.tabs:checked + label + div {
+  z-index: 1000;
+}
+
+/*---------------------Barra de menu------------------------------------*/
+.menu {
+  overflow: hidden;
+  background-color:#FF8B58;
+}
+
+.menu a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.menu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.menu a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 14px 16px;
+  background-color: #ff8b58;
+  color: black;
+  text-align: center;
+}

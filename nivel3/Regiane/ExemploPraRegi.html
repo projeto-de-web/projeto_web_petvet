@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ajuda a menina</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="CssDaRegiane1.css">
+        <script src="JsDaRegiane1.js"></script>    
+    </head>
+    <style>
+        body{ background-image: url('cachorro.jpg') no-repeat fixed center; }
+    </style>
+    <body>
+
+        <div>
+            <h1>Trabalho da Regiane a bixinha! </h1>
+            <lable>Cod.Animal*:</lable>
+            <input type="text" id="Cod.Animal" placeholder="digite sua matrícula"/><p/>  
+
+            <lable>Nome:</lable>
+            <input type="text" id="nome" placeholder="digite seu nome"/><p/>
+
+            <lable>Cod.Legado:</lable>
+            <input type="text" id="Cod.Legado" placeholder="digite seu email"/><p/>
+
+            <lable>Nascimento:</lable>
+            <input type="tel" id="Nascimento" placeholder="digite a data do Nascimento"/><p/>
+
+            <lable>Sexo:</lable>
+            <input type="text" id="sexo" placeholder="digite sexo"/><p/>
+
+            <lable>Espécie:</lable>
+            <input type="text" id="especie" placeholder="digite a espécie"/><p/>
+
+            <lable>Raça:</lable>
+            <input type="text" id="raça" placeholder="digite a raça"/><p/>
+
+            <lable>Desc.Raça:</lable>
+            <input type="text" id="desc.raça" placeholder="digite a desc. da raça"/><p/>
+
+            <lable>Peso:</lable>
+            <input type="number" id="peso" placeholder="digite o peso"/><p/>
+
+            <lable>Óbito:</lable>
+            <input type="text" id="obito" placeholder="Obito"/><p/>
+
+                
+            <div>
+                <button id="btn_adicionar" onclick="adicionaLinha('tbl')">Adicionar</button>
+                <button id="btn_adicionar" onclick="adicionaLinha('tbl')">Salvar</button>
+           </div>
+           
+           
+                
+           
+        </div>
+
+        <p/>
+        <div>
+            <table id="tbl" class="bordaSimples" border="1">
+                <tr>
+                    <th >Cod.Animal</th>
+                    <th >Nome</th>
+                    <th >Cod.Legado</th>
+                    <th >Nascimento</th>
+                    <th >Sexo</th>
+                    <th >Espécie</th>
+                    <th >Raça</th>
+                    <th >Desc.Raça</th>
+                    <th >Peso</th>
+                    <th >Óbito</th>
+                    <th >Ação</th>
+                    <th >Editar</th>
+                </tr>
+            </table>        
+        </div>
+    </body>
+</html>

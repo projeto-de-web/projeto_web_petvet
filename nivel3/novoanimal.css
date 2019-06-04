@@ -1,0 +1,50 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+    }
+    
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+    }
+    
+tr:nth-child(even) {
+  background-color: #dddddd;
+    }
+
+.tabs-container {
+  position: relative;
+}
+
+.tabs-container:after {
+  content: '.';
+  display: block;
+  clear: both;
+}
+input.tabs {
+  display: none;
+}
+input.tabs + label {
+  line-height: 40px;
+  padding: 0 20px;
+  float: left;
+
+  transition: background ease-in-out .3s;
+}
+input.tabs:checked + label {
+  color: #000;
+  background: #eee;
+}
+input.tabs + label + div {
+  width: 98%;
+  position: absolute;
+  background: #eee;
+  top: 40px;
+  height: 300px;
+  transition: opacity ease-in-out .3s;
+}
+input.tabs:checked + label + div {
+  z-index: 1000;
+}

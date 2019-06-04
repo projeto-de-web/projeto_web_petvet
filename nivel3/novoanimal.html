@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset = "utf-8"/>
+      <link rel="stylesheet" type="text/css" href="novoanimal.css">
+    </head>
+    <body>
+    
+    <h2>Novo Animal</h2>
+      
+    
+    <table>
+      <tr>
+        <th>Código</th>
+        <th>3509</th>
+        <th>Nome</th>
+        <th>
+        <form>
+      <input type="text" name="firstname">
+      <br>
+        </form>
+        </th>
+      </tr>
+      <tr>
+        <td>Nascimento</td>
+        <td>
+        <form>
+      <input type="text" name="firstname">
+      <br>
+        </form>
+        </td>
+        <td>Nascimento Desconhecido
+            <form action="" method="get">
+            <input type="checkbox" name="vehicle" value="">
+            </form>
+        </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td>Sexo:</td>
+        <td>
+          <select>
+            <option value="Masculino">Masculino</option>
+            <option value="Feminino">Feminino</option>
+          </select>
+        </td>
+        <td>Espécie</td>
+        <td>
+          <select>
+      <option value="Canina">Canina</option>
+      <option value="Felina">Felina</option>
+      <option value="Reptil">Repteis</option>
+      <option value="Anfibio">Anfibios</option>
+    </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Raça</td>
+        <td>
+          <select>
+      <option value="Pincher">Pincher</option>
+      <option value="Pastor Alemão">Pastor Alemão</option>
+      <option value="Dalmata">Dalmata</option>
+      <option value="Seames">Seames</option>
+          </select>
+        </td>
+        <td>Espécie / Raça (Sem Cadastro)</td>
+          <td>
+        <form>
+      <form action="" method="get">
+            <input type="checkbox" name="vehicle" value="">
+      </form>
+          </td>
+      </tr>
+      <tr>
+        <td>Peso</td>
+        <td><form>
+      <input type="text" name="firstname">
+      </form>
+        </td>
+        <td>Cadastro
+          <form action="" method="get">
+      <input type="checkbox" name="vehicle" value="">
+          </form>
+        </td>
+        <td>Pedigree
+        <form action="" method="get">
+            <input type="checkbox" name="vehicle" value="">
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td>Óbito
+          <form action="" method="get">
+            <input type="checkbox" name="vehicle" value="">
+            
+          </form>
+        </td>    
+      </tr>
+        
+    </table>   
+    <div class="tabs-container">
+    
+            <input type="radio" name="tabs" class="tabs" id="tab1" checked>
+            <label for="tab1">Obvervações</label>
+            <div><textarea name="comentarios" id="comentarios" rows="18" cols="137"></textarea></div>            
+            
+            <input type="radio" name="tabs" class="tabs" id="tab2">
+            <label for="tab2">Vacinas</label>
+            <div><textarea name="comentarios" id="comentarios" rows="18" cols="137"></textarea></div>
+    
+    </div>
+      
+    <p>
+      <button type="button" onclick="Alterar">Alterar</button>
+      <button type="button" onclick="Cancelar">Cancelar</button>
+    </p>
+  </body>
+    </html>
