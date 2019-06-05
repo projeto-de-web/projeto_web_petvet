@@ -1,9 +1,9 @@
 <?php
 
 $host  = "localhost"; //endere�o do seu servidor MySQL
-$database = "petlivre"; //preencha com o nome do BD que contem a tabela que criamos
-$login_db = "root"; //login usado para acessar seu BD
-$senha_db = "12340980"; //senha usada para acessar seu BD
+$database = "PetLivre"; //preencha com o nome do BD que contem a tabela que criamos
+$login_db = "web"; //login usado para acessar seu BD
+$senha_db = ""; //senha usada para acessar seu BD
 
 // n�o altere mais nada abaixo desta linha
     // 1. Create a database connection

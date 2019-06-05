@@ -41,8 +41,11 @@ CREATE TABLE `acesso` (
 --
 
 INSERT INTO `acesso` (`codigo`, `nome`, `login`, `senha`, `nivel`, `pag_inicial`, `data_criacao`) VALUES
-(1, 'Marcelo', 'admin', '626c73e99b24f60bc35c7f6516877c89', 3, 'nivel3/index_menu.php', '2017-03-21'),
-(2, 'Usuario', 'user1', '84e60563ae4b363e7a968062b4d04f49', 1, 'nivel0/index_menu.php', '2017-03-21');
+(1, 'Renan', 'admin', '626c73e99b24f60bc35c7f6516877c89', 3, 'nivel3/index_menu.php', '2017-03-21'),
+(2, 'Usuario', 'user1', '84e60563ae4b363e7a968062b4d04f49', 1, 'nivel0/index_menu.php', '2017-03-21'),
+(4, 'Rodolfo', 'gestor', '6f254bd789eaf4b0dedcee80279664a4', 3, 'nivel3/index_menu.php', '2019-03-04'),
+(5, 'test', 'test', '6f254bd789eaf4b0dedcee80279664a4', 1, 'nivel0/index_menu.php', '2019-03-04'),
+(6, 'test_2', 'test_2', '6f254bd789eaf4b0dedcee80279664a4', 1, 'nivel0/index_menu.php', '2019-03-04');
 
 -- --------------------------------------------------------
 

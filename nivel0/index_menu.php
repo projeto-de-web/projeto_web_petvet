@@ -38,7 +38,7 @@ $_SESSION["retorno"] ="";
 <!DOCTYPE html>
 <html lang="pt_BR">
 <head>
-  <title>PetLivre - Sistema para Gerenciamento de Petshop  </title>
+  <title>PetVet - Sistema para Gerenciamento de Petshop  </title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="<?=$pontos;?>css/config.css" type="text/css">
 </head>
